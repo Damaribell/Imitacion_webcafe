@@ -1,0 +1,210 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.section_concept {
+  display: flex;
+  justify-content: space-around;
+}
+.section_concept p {
+width: 60%;
+font-size: 100%;
+}
+.section_concept img {
+width: 35%
+}
+
+.menu_panques {
+width: 100%;
+display: flex;
+justify-content: space-around;
+overflow: hidden;
+margin: 2%;
+} 
+
+.menu_panques ul {
+display: inline-flex;
+justify-content: space-around;
+margin: 1%;
+}
+
+.menu_panques ul li {
+display: inline-flex;
+align-items: center;
+border: 1px solid; color: black;
+width: 49%
+}
+
+.menu_panques ul li img {
+width: 55%;
+}
+
+.descripcion {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 100%;
+height: 100%;
+padding: 2%;
+background-color: white;
+
+}
+
+.costo {
+display: flex;
+justify-content: end;
+}
+
+.carta_cafes {
+width: 100%;
+margin: 20px;
+display: flex;
+flex-wrap: wrap;
+background-color: white;
+border: 20px solid; color: rgb(187, 224, 130);
+}
+
+.carta_cafes li {
+width: 49%;
+display: flex;
+padding: 1%;
+}
+
+.carta_cafes li img {
+width: 20%;
+border-radius: 50%;
+}
+
+.descripcion_cafe {
+width: 80%;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 70%; color: black;
+margin-left: 2%;
+}
+
+.menu_section {
+background: center / cover no-repeat url("../images/sample_menu_bg.jpg") fixed;
+}
+
+.mapa iframe {
+width: 100%;
+}
+.descripcion_acceso {
+display: flex;
+}
+
+.descripcion_acceso dt {
+width: 80px;
+}
+
+.footer {
+background-color: #251e19;
+height: 75px;
+}
+
+.footer_nav_item {
+color: white;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 10px;
+}
+
+.footer_derechos {
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.footer_nav {
+display: flex;
+justify-content: center;
+margin-left: 13%;
+}
+
+.footer_logo {
+width: 25%;
+height: 25%;
+}
